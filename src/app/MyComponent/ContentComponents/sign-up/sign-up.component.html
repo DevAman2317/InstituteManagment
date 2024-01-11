@@ -1,0 +1,103 @@
+
+<div class="row">
+    <div class="col-3">
+        <div class="card text-center">
+            <div class="card-img-top">
+                <img src="assets\atchivement.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="title">
+                    <h4>Education is the most powerful weapon to change the world</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-9 shadow">
+
+        <div class="container mt-2">
+          <h2 class="mb-4">Registration Form</h2>
+        
+          <form>
+            <div class="row">
+              <!-- First Column -->
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
+                <div class="mb-3">
+                  <label for="middleName" class="form-label">Middle Name</label>
+                  <input type="text" class="form-control" id="middleName" name="middleName">
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
+                </div>
+                <div class="mb-3 d-flex justify-content-around">
+                  <label class="form-label">Gender</label>
+                  <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Male</label>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="contact" class="form-label">Contact</label>
+                  <input type="tel" class="form-control" id="contact" name="contact" required>
+                </div>
+            </div>
+            
+            <!-- Second Column -->
+            <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                <div class="mb-3">
+                  <label for="lastPassingExam" class="form-label">Last Passing Exam</label>
+                  <input type="text" class="form-control" id="lastPassingExam" name="lastPassingExam" required>
+                </div>
+                <div class="mb-3">
+                  <label for="percentageLastExam" class="form-label">Percentage in Last Exam</label>
+                  <input type="number" class="form-control" id="percentageLastExam" name="percentageLastExam" required>
+                </div>
+                <div class="mb-3">
+                  <label for="lastCollege" class="form-label">Name of Last College/School</label>
+                  <input type="text" class="form-control" id="lastCollege" name="lastCollege" required>
+                </div>
+                <div class="mb-3">
+                  <label for="admissionCourse" class="form-label">Select Admission Course</label>
+                  <select class="form-select" id="admissionCourse" name="admissionCourse" required>
+                    <option value="XII">XII</option>
+                    <option value="NEET">NEET</option>
+                    <option value="JEE">JEE</option>
+                    <option value="MHT-CET">MHT-CET</option>
+                  </select>
+                </div>
+                <!-- Online Payment Link -->
+                <div class="mb-3">
+                  <label class="form-label">Pay Fees Online</label>
+                  <a href="https://example.com/payment" target="_blank">Click here to pay fees online</a>
+                </div>
+            
+                <!-- Buttons -->
+                <div class="mb-3 d-flex justify-content-around">
+                    <button type="submit" class="btn btn-success col-5"[routerLink]="'/homePage'">Submit</button>
+                  <button type="reset" class="btn btn-secondary col-5">Reset</button>
+                </div>
+              </div>
+            </div>
+        
+          </form>
+        </div>
+    </div>
+</div>

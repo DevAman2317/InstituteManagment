@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clr{
+    color: rgb(5, 84, 116);
+  }
+.bg-clr{
+    background-color: rgb(5, 84, 116);
+}
+.nav-link:hover{
+  color: rgb(5, 84, 116);
+  font-weight: 600;
+
+}
+.nav-link:visited{
+  color: rgb(5, 84, 116);
+  font-weight: 600;
+
+}
+.nav-link{
+  font-weight: 600;
+}

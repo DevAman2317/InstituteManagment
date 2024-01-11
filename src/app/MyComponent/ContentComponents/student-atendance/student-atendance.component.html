@@ -1,0 +1,43 @@
+
+  <!-- Body with Two Panels (Left and Right) -->
+
+      
+        
+  <div class="row d-flex justify-content-center">
+    
+    
+    <div class="col-lg-4 col-md-3 col-sm-10 my-2">
+      <div class="container ">
+        <app-side-bar>
+          <ng-container *ngTemplateOutlet="studentSide" ></ng-container>
+        </app-side-bar>
+        
+      </div>
+    </div>
+
+    <div class="col-lg-8 col-md-7 col-sm-12 my-2 rounded shadow">
+      <div class="row">
+        <div class="p-1 Notifications">
+          <div class="notification-container ">
+            <div class="scrolling-text text-danger  ">
+              <p class="overflow-wrap">*Notification For Visitor Students or anyone</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row d-flex text-center justify-content-around ">
+         
+        <div [Highcharts]="Chart"></div>
+            
+          </div>
+      </div>
+    
+<!-- Professors -->
+        
+        
+   
+
+
+
+

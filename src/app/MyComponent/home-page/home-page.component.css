@@ -1,0 +1,33 @@
+
+
+
+/* Notifications */
+.notification-container {
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    animation: scroll 15s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.clr{
+    color: rgb(5, 84, 116);
+  }
+.bg-clr{
+    background-color: rgb(5, 84, 116);
+}
+ 
+
+
+.content-card{
+  background-color:  rgba(6, 104, 139, 0.116);
+}
