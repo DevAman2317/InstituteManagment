@@ -1,0 +1,21 @@
+
+<div class="container-fluid">
+    <div class="container  ">
+        <div class="row d-flex ">
+            <div class="col-8 mx-auto  bg-primary m-4 p-4 rounded">
+                <form [formGroup]="reactiveForm" (ngSubmit)="getdata()">
+                    <div class="formGroup ">
+                        <label class="form-label">First Name</label>
+                        <input type="text" formControlName="FName" class="form-control" name="FirstName">
+                    </div>
+                    <div class="formGroup mb-4">
+                        <label class="form-label">Contatct</label>
+                        <input type="text" formControlName="contact" class="form-control" name="Contact">
+                    </div>
+                    <button class="btn btn-success" >Submit</button>
+                    <button (click)="resetData(reactiveForm)" class="btn btn-primary">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
